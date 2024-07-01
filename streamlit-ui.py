@@ -2,7 +2,6 @@ import os
 from bs4 import BeautifulSoup
 from azure.storage.blob import BlobServiceClient
 from dotenv import load_dotenv, find_dotenv
-from weasyprint import HTML
 import pdfkit
 
 # Load environment variables from .env file
