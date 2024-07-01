@@ -38,8 +38,8 @@ def upload_to_azure_blob(file_path, container_name, blob_name, connection_string
 
 # Main function
 def main():
-    url = "https://www.mobil.co.th/th-th/our-products#t=https%3A%2F%2Fwww.mobil.co.th%2Fth-th%2Four-products&sort=relevancy"  # Replace with your target URL
-    output_pdf = "output2.pdf"
+    url = "https://www.mobil.co.th/th-th/our-products/mobil-1"  # Replace with your target URL
+    output_pdf = "output1.pdf"
     
     convert_url_to_pdf(url, output_pdf)
 
